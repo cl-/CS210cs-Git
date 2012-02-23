@@ -1,0 +1,50 @@
+public class Funding {
+    //2 Fields, 2 inputEnabled
+    public int amount;
+    public String source;
+    
+    //2 Constructors
+    public Funding () {}
+    
+    public Funding (int inp_amount, String inp_source) {
+        amount = inp_amount; source = inp_source;
+    }
+    
+    //Methods
+    public String toString() {return amount+ ' ' +source+ "\n";}
+    public String forPrint() {return "$" +amount+ " by " +source+ "\n";}
+
+    public double getAmount(){return amount;}
+    public String getSource(){return source;}
+}
+
+
+public class FundingList extends ArrayList<Funding> {
+    //1 Fields, 1 inputEnabled
+    public Funding fundingArr[];
+    public int amountTotal;
+    public String sourceEvery;
+
+    //1 Constructor since it is an arrayList.
+    public FundingList () {}
+
+    //Methods
+    public String toString() {return amount+ ' ' +source+ "\n";}
+    public String forPrint() {return "$" +amount+ " by " +source+ "\n";}
+    
+    public void   addFunding(){recalcAmountTotal}
+    public int    recalcAmountTotal(){helloooooo}
+    
+    public double getAmountTotal(){return amountTotal;}
+    public String getSource(){return source;}
+}
+int expenditureTotal=0;
+/*
+public int recalcExpenditureTotal(){
+int expenditureTotal = 0;
+//foreach item price, add to expenditure total
+return expenditureTotal;
+}
+expenditureTotal = recalcExpenditureTotal();
+
+*/
