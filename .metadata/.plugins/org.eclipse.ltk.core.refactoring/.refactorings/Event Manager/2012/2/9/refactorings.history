@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;haha/src&apos;&#x0D;&#x0A;- Original project: &apos;Event Manager&apos;&#x0D;&#x0A;- Destination element: &apos;haha/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     background.java&#x0D;&#x0A;     item.java&#x0D;&#x0A;     activity.java&#x0D;&#x0A;     programFlow.java" description="Copy compilation units" destination="=haha/src" element1="/src&lt;{background.java" element2="/src&lt;{item.java" element3="/src&lt;{activity.java" element4="/src&lt;{programFlow.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1330514245397" units="4" version="1.0"/>
+</session>
